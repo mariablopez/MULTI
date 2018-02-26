@@ -422,11 +422,8 @@ var levels = {
             {type:"block", name:"7", x:420,y:380,angle:90,width:100,height:25},
             {type:"block", name:"7", x:320,y:280,angle:90,width:100,height:25},
             {type:"block", name:"7", x:320,y:380,angle:90,width:100,height:25},
+            
            
-            
-            
-            
-            
             
             {type:"villain", name:"4",x:320,y:205,calories:590},
 
@@ -454,17 +451,101 @@ var levels = {
                 {type:"block", name:"7", x:770,y:317.5,width:100,height:25},
                 
                 
+                
+                {type:"block", name:"7", x:620,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"7", x:520,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"7", x:420,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"7", x:470,y:317.5,width:100,height:25},
+                {type:"block", name:"7", x:570,y:317.5,width:100,height:25},
+                
+                
+                // {type:"block", name:"7", x:70,y:317.5,width:100,height:25},
+                
+                
+                
+                
+                
+                
+				
+                //{type:"block", name:"7", x:870,y:317.5,width:100,height:25},
+                
+                
                
+            {type:"villain", name:"3",x:720,y:205,calories:590},
+             {type:"villain", name:"3",x:520,y:205,calories:590},  
+              {type:"villain", name:"4",x:620,y:205,calories:690},  
+               
+                  
+          //  {type:"villain", name:"2",x:620,y:380,calories:590},
+                
+           // {type:"villain", name:"4",x:320,y:205,calories:590},
+                   
+
+			//{type:"villain", name:"1",x:520,y:205,calories:590},
+
 				
+				
+				
+
+				{type:"block", name:"7", x:670,y:255,angle:90,width:100,height:25},
+				{type:"block", name:"7", x:770,y:255,angle:90,width:100,height:25},
+				{type:"block", name:"7", x:720,y:192.5,width:100,height:25},
+                
+                {type:"block", name:"7", x:470,y:255,angle:90,width:100,height:25},
+				{type:"block", name:"7", x:570,y:255,angle:90,width:100,height:25},
+				{type:"block", name:"7", x:520,y:192.5,width:100,height:25},
+                
+                
+                 {type:"villain", name:"4",x:720,y:105,calories:690}, 
+                
+                  {type:"villain", name:"4",x:520,y:105,calories:690}, 
+                
+				{type:"block", name:"7", x:670,y:95,angle:90,width:100,height:25},
+				{type:"block", name:"7", x:770,y:95,angle:90,width:100,height:25},
+				{type:"block", name:"7", x:720,y:32.5,width:100,height:25},
+                
+                {type:"block", name:"7", x:470,y:95,angle:90,width:100,height:25},
+				{type:"block", name:"7", x:570,y:95,angle:90,width:100,height:25},
+				{type:"block", name:"7", x:520,y:32.5,width:100,height:25},
                 
 				
                 
+
 				
+				
+				{type:"hero", name:"9",x:30,y:415},
+				{type:"hero", name:"9",x:80,y:405},
+				{type:"hero", name:"9",x:140,y:405},
+			]
+		},
+        
+        {   // Third level
+			foreground:'fondo5',
+			background:'fondo5',
+			entities:[
+				{type:"ground", name:"dirt", x:500,y:440,width:1000,height:20,isStatic:true},
+				{type:"ground", name:"7", x:185,y:390,width:30,height:80,isStatic:true},
+
+				{type:"block", name:"7", x:820,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"7", x:720,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"7", x:620,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"7", x:670,y:317.5,width:100,height:25},
+                {type:"block", name:"7", x:770,y:317.5,width:100,height:25},
                 
 				
                 {type:"block", name:"7", x:870,y:317.5,width:100,height:25},
                 
+                
                
+            {type:"villain", name:"3",x:320,y:205,calories:590},
+                
+            {type:"villain", name:"2",x:620,y:380,calories:590},
+                
+            {type:"villain", name:"4",x:320,y:205,calories:590},
+                   
+
+			{type:"villain", name:"1",x:520,y:205,calories:590},
+
 				
 				
 				
@@ -487,7 +568,21 @@ var levels = {
 				{type:"hero", name:"9",x:80,y:405},
 				{type:"hero", name:"9",x:140,y:405},
 			]
-		}
+		},
+        
+            
+                
+                
+                
+                
+                
+                
+            
+            
+            
+            
+            
+        
 	],
 
 	// Initialize level selection screen
