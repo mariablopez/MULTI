@@ -570,6 +570,81 @@ var levels = {
 			]
 		},
         
+         {   // fourth level
+			foreground:'fondo6',
+			background:'fondo6',
+			entities:[
+				{type:"ground", name:"dirt", x:500,y:440,width:1000,height:20,isStatic:true},
+				{type:"ground", name:"7", x:185,y:390,width:30,height:80,isStatic:true},
+
+				{type:"block", name:"7", x:820,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"7", x:720,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"7", x:620,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"7", x:670,y:317.5,width:100,height:25},
+                {type:"block", name:"7", x:770,y:317.5,width:100,height:25},
+                
+                
+                
+                {type:"block", name:"7", x:620,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"7", x:520,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"7", x:420,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"7", x:470,y:317.5,width:100,height:25},
+                {type:"block", name:"7", x:570,y:317.5,width:100,height:25},
+                
+                
+                // {type:"block", name:"7", x:70,y:317.5,width:100,height:25},
+                
+                
+                
+                
+                
+                
+				
+                //{type:"block", name:"7", x:870,y:317.5,width:100,height:25},
+                
+                
+               
+            {type:"villain", name:"6",x:720,y:205,calories:590},
+             {type:"villain", name:"6",x:520,y:205,calories:590},  
+              {type:"villain", name:"3",x:620,y:205,calories:690},  
+               
+                  
+          //  {type:"villain", name:"2",x:620,y:380,calories:590},
+                
+           // {type:"villain", name:"4",x:320,y:205,calories:590},
+                   
+
+			//{type:"villain", name:"1",x:520,y:205,calories:590},
+
+				
+				
+				
+
+				{type:"block", name:"7", x:670,y:255,angle:90,width:100,height:25},
+				{type:"block", name:"7", x:770,y:255,angle:90,width:100,height:25},
+				{type:"block", name:"7", x:720,y:192.5,width:100,height:25},
+                
+                {type:"block", name:"7", x:470,y:255,angle:90,width:100,height:25},
+				{type:"block", name:"7", x:570,y:255,angle:90,width:100,height:25},
+				{type:"block", name:"7", x:520,y:192.5,width:100,height:25},
+                
+                
+                 {type:"villain", name:"2",x:720,y:105,calories:690}, 
+                
+                  {type:"villain", name:"2",x:520,y:105,calories:690}, 
+             
+                
+
+				
+				
+				{type:"hero", name:"9",x:30,y:415},
+				{type:"hero", name:"9",x:80,y:405},
+				{type:"hero", name:"9",x:140,y:405},
+			]
+		},
+        
+            
+        
             
                 
                 
@@ -637,7 +712,7 @@ var levels = {
 
 var entities = {
 	definitions:{
-		"2":{
+		"wood":{
 			fullHealth:100,
 			density:2.4,
 			friction:0.4,
@@ -665,8 +740,8 @@ var entities = {
 		"3":{
 			shape:"rectangle",
 			fullHealth:80,
-			width:40,
-			height:60,
+			width:70,
+			height:90,
 			density:1,
 			friction:0.5,
 			restitution:0.7,
@@ -694,12 +769,19 @@ var entities = {
 			friction:0.5,
 			restitution:0.4,
 		},
-		"strawberry":{
+		"2":{
 			shape:"circle",
 			radius:15,
 			density:2.0,
 			friction:0.5,
 			restitution:0.4,
+		},
+        "6":{
+			shape:"circle",
+			radius:20,
+			density:4.0,
+			friction:0.8,
+			restitution:0.6,
 		},
 	},
 	// take the entity, create a box2d body and add it to the world
