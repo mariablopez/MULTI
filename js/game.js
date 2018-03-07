@@ -90,6 +90,7 @@ var game = {
 		}
 	},
 	showLevelScreen:function(){
+        game.stopBackgroundMusic();
 		$('.gamelayer').hide();
 		$('#levelselectscreen').show('slow');
 	},
@@ -101,6 +102,7 @@ var game = {
     backMain:function(){
         game.ended= true;
         game.showLevelScreen();
+        sound
     },
 	startNextLevel:function(){
 		window.cancelAnimationFrame(game.animationFrame);
