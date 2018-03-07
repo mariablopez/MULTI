@@ -98,6 +98,10 @@ var game = {
 		game.lastUpdateTime = undefined;
 		levels.load(game.currentLevel.number);
 	},
+    backMain:function(){
+        game.ended= true;
+        game.showLevelScreen();
+    },
 	startNextLevel:function(){
 		window.cancelAnimationFrame(game.animationFrame);
 		game.lastUpdateTime = undefined;
