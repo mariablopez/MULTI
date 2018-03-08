@@ -798,23 +798,23 @@ var levels = {
 			background:'fondo12',
 			entities:[
 				{type:"ground", name:"dirt", x:500,y:440,width:1000,height:20,isStatic:true},
-				{type:"ground", name:"7", x:185,y:390,width:30,height:80,isStatic:true},
+				{type:"ground", name:"alga15", x:185,y:390,width:30,height:80,isStatic:true},
 
 				
                 
-          {type:"block", name:"7", x:820,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:720,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:620,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:670,y:317.5,width:100,height:25},
-                {type:"block", name:"7", x:770,y:317.5,width:100,height:25},
+          {type:"block", name:"alga15", x:820,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"alga15", x:720,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"alga15", x:620,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"alga15", x:670,y:317.5,width:100,height:25},
+                {type:"block", name:"alga15", x:770,y:317.5,width:100,height:25},
                 
                 
                 
-                {type:"block", name:"7", x:620,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:520,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:420,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:470,y:317.5,width:100,height:25},
-                {type:"block", name:"7", x:570,y:317.5,width:100,height:25},
+                {type:"block", name:"alga15", x:620,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"alga15", x:520,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"alga15", x:420,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"alga15", x:470,y:317.5,width:100,height:25},
+                {type:"block", name:"alga15", x:570,y:317.5,width:100,height:25},
                 
                 
                 
@@ -825,15 +825,15 @@ var levels = {
                 
                 
                 //{type:"block", name:"7", x:1020,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:920,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:820,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:870,y:317.5,width:100,height:25},
+				{type:"block", name:"alga15", x:920,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"alga15", x:820,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"alga15", x:870,y:317.5,width:100,height:25},
                
-                 {type:"block", name:"7", x:420,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:320,y:380,angle:90,width:100,height:25},
+                 {type:"block", name:"alga15", x:420,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"alga15", x:320,y:380,angle:90,width:100,height:25},
 				//{type:"block", name:"7", x:220,y:380,angle:90,width:100,height:25},
 				//{type:"block", name:"7", x:270,y:317.5,width:100,height:25},
-                {type:"block", name:"7", x:370,y:317.5,width:100,height:25},
+                {type:"block", name:"alga15", x:370,y:317.5,width:100,height:25},
                 
                 
                 
@@ -878,13 +878,13 @@ var levels = {
 				
 				
 
-				{type:"block", name:"7", x:670,y:255,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:770,y:254,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:720,y:192.5,width:100,height:25},
+				{type:"block", name:"alga15", x:670,y:255,angle:90,width:100,height:25},
+				{type:"block", name:"alga15", x:770,y:254,angle:90,width:100,height:25},
+				{type:"block", name:"alga15", x:720,y:192.5,width:100,height:25},
                 
-                {type:"block", name:"7", x:470,y:255,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:570,y:254,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:520,y:192.5,width:100,height:25},
+                {type:"block", name:"alga15", x:470,y:255,angle:90,width:100,height:25},
+				{type:"block", name:"alga15", x:570,y:254,angle:90,width:100,height:25},
+				{type:"block", name:"alga15", x:520,y:192.5,width:100,height:25},
                 
                 
              
@@ -999,6 +999,12 @@ var entities = {
 			restitution:0.4,
 		},
         "alga3":{
+			fullHealth:500,
+			density:0.7,
+			friction:0.4,
+			restitution:0.4,
+		},
+        "alga15":{
 			fullHealth:500,
 			density:0.7,
 			friction:0.4,
