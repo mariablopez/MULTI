@@ -414,28 +414,27 @@ var levels = {
 	// Level data
 	data:[
 	 {// First level
-		foreground:'fondo2',
-		background:'fondo2',
+		foreground:'fondo1',
+		background:'fondo1',
 		entities:[
 			{type:"ground", name:"dirt", x:500,y:440,width:1000,height:20,isStatic:true},
-			{type:"ground", name:"7", x:185,y:390,width:30,height:80,isStatic:true},
-            {type:"ground", name:"alga", x:185,y:390,width:30,height:80,isStatic:true},
+            {type:"ground", name:"alga3", x:185,y:390,width:30,height:80,isStatic:true},
  
             
-			{type:"block", name:"alga", x:520,y:380,angle:90,width:100,height:25},
-			{type:"block", name:"alga", x:520,y:280,angle:90,width:100,height:25},
+			{type:"block", name:"alga3", x:520,y:380,angle:90,width:100,height:25},
+			{type:"block", name:"alga3", x:520,y:280,angle:90,width:100,height:25},
             
             
             
             {type:"villain", name:"1", x:670,y:280,calories:420},
             
             
-            {type:"block", name:"alga", x:720,y:380,angle:90,width:100,height:25},
-            {type:"block", name:"alga", x:720,y:280,angle:90,width:100,height:25},
+            {type:"block", name:"alga3", x:720,y:380,angle:90,width:100,height:25},
+            {type:"block", name:"alga3", x:720,y:280,angle:90,width:100,height:25},
             
             {type:"villain", name:"3",x:670,y:180,calories:190},
             
-             {type:"block", name:"alga", x:670,y:180,width:100,height:25},
+             {type:"block", name:"alga3", x:670,y:180,width:100,height:25},
             
             
             
@@ -443,11 +442,11 @@ var levels = {
             {type:"villain", name:"1", x:570,y:280,calories:420},
             
             
-            {type:"block", name:"7", x:520,y:280,angle:90,width:100,height:25},
-            {type:"block", name:"7", x:520,y:380,angle:90,width:100,height:25},
+            {type:"block", name:"alga3", x:520,y:280,angle:90,width:100,height:25},
+            {type:"block", name:"alga3", x:520,y:380,angle:90,width:100,height:25},
             
             {type:"villain", name:"3",x:570,y:180,calories:190},
-            {type:"block", name:"alga", x:570,y:180,width:100,height:25},
+            {type:"block", name:"alga3", x:570,y:180,width:100,height:25},
             
             
             
@@ -455,23 +454,23 @@ var levels = {
             
             
             
-            {type:"block", name:"7", x:420,y:280,angle:90,width:100,height:25},
-            {type:"block", name:"7", x:420,y:380,angle:90,width:100,height:25},
+            {type:"block", name:"alga3", x:420,y:280,angle:90,width:100,height:25},
+            {type:"block", name:"alga3", x:420,y:380,angle:90,width:100,height:25},
             
             
             {type:"villain", name:"3",x:470,y:180,calories:190}, 
-            {type:"block", name:"7", x:470,y:180,width:100,height:25},
+            {type:"block", name:"alga3", x:470,y:180,width:100,height:25},
             
             
             
             {type:"villain", name:"1",x:370,y:280,calories:90},
             
             
-            {type:"block", name:"7", x:320,y:280,angle:90,width:100,height:25},
-            {type:"block", name:"7", x:320,y:380,angle:90,width:100,height:25},
+            {type:"block", name:"alga3", x:320,y:280,angle:90,width:100,height:25},
+            {type:"block", name:"alga3", x:320,y:380,angle:90,width:100,height:25},
             
             {type:"villain", name:"3",x:370,y:180,calories:190},
-            {type:"block", name:"7", x:370,y:180,width:100,height:25},
+            {type:"block", name:"alga3", x:370,y:180,width:100,height:25},
             
             
             
@@ -502,11 +501,11 @@ var levels = {
 
 			//{type:"villain", name:"1",x:520,y:205,calories:590},
 
-			{type:"block", name:"alga", x:620,y:380,angle:90,width:100,height:25},
-			{type:"block", name:"alga", x:620,y:280,angle:90,width:100,height:25},
-			
-			{type:"hero", name:"2",x:80,y:405},
+			{type:"block", name:"alga3", x:620,y:380,angle:90,width:100,height:25},
+			{type:"block", name:"alga3", x:620,y:280,angle:90,width:100,height:25},
 			{type:"hero", name:"9",x:140,y:405},
+			{type:"hero", name:"2",x:80,y:405},
+			{type:"hero", name:"5",x:140,y:405},
 		]
 	 },
 		{   // Second level
@@ -514,21 +513,21 @@ var levels = {
 			background:'fondo4',
 			entities:[
 				{type:"ground", name:"dirt", x:500,y:440,width:1000,height:20,isStatic:true},
-				{type:"ground", name:"7", x:185,y:390,width:30,height:80,isStatic:true},
+				{type:"ground", name:"alga4", x:185,y:390,width:30,height:80,isStatic:true},
 
-				{type:"block", name:"7", x:820,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:720,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:620,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:670,y:317.5,width:100,height:25},
-                {type:"block", name:"7", x:770,y:317.5,width:100,height:25},
+				{type:"block", name:"alga4", x:820,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"alga4", x:720,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"alga4", x:620,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"alga4", x:670,y:317.5,width:100,height:25},
+                {type:"block", name:"alga4", x:770,y:317.5,width:100,height:25},
                 
                 
                 
-                {type:"block", name:"7", x:620,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:520,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:420,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:470,y:317.5,width:100,height:25},
-                {type:"block", name:"7", x:570,y:317.5,width:100,height:25},
+                {type:"block", name:"alga4", x:620,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"alga4", x:520,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"alga4", x:420,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"alga4", x:470,y:317.5,width:100,height:25},
+                {type:"block", name:"alga4", x:570,y:317.5,width:100,height:25},
                 
                 
                 // {type:"block", name:"7", x:70,y:317.5,width:100,height:25},
@@ -559,26 +558,26 @@ var levels = {
 				
 				
 
-				{type:"block", name:"7", x:670,y:257,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:770,y:253,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:720,y:192.5,width:100,height:25},
+				{type:"block", name:"alga4", x:670,y:257,angle:90,width:100,height:25},
+				{type:"block", name:"alga4", x:770,y:253,angle:90,width:100,height:25},
+				{type:"block", name:"alga4", x:720,y:192.5,width:100,height:25},
                 
-                {type:"block", name:"7", x:470,y:257,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:570,y:253,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:520,y:192.5,width:100,height:25},
+                {type:"block", name:"alga4", x:470,y:257,angle:90,width:100,height:25},
+				{type:"block", name:"alga4", x:570,y:253,angle:90,width:100,height:25},
+				{type:"block", name:"alga4", x:520,y:192.5,width:100,height:25},
                 
                 
                  {type:"villain", name:"4",x:720,y:105,calories:690}, 
                 
                   {type:"villain", name:"4",x:520,y:105,calories:690}, 
                 
-				{type:"block", name:"7", x:670,y:96,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:770,y:94,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:720,y:32.5,width:100,height:25},
+				{type:"block", name:"alga4", x:670,y:96,angle:90,width:100,height:25},
+				{type:"block", name:"alga4", x:770,y:94,angle:90,width:100,height:25},
+				{type:"block", name:"alga4", x:720,y:32.5,width:100,height:25},
                 
-                {type:"block", name:"7", x:470,y:96,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:570,y:94,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:520,y:32.5,width:100,height:25},
+                {type:"block", name:"alga4", x:470,y:96,angle:90,width:100,height:25},
+				{type:"block", name:"alga4", x:570,y:94,angle:90,width:100,height:25},
+				{type:"block", name:"alga4", x:520,y:32.5,width:100,height:25},
                 
 				
                 
@@ -586,8 +585,8 @@ var levels = {
 				
 				
 				{type:"hero", name:"9",x:30,y:415},
-				{type:"hero", name:"9",x:80,y:405},
-				{type:"hero", name:"9",x:140,y:405},
+				{type:"hero", name:"2",x:80,y:405},
+				{type:"hero", name:"5",x:140,y:405},
 			]
 		},
         
@@ -662,8 +661,8 @@ var levels = {
 				
 				
 				{type:"hero", name:"9",x:30,y:415},
-				{type:"hero", name:"9",x:80,y:405},
-				{type:"hero", name:"9",x:140,y:405},
+				{type:"hero", name:"2",x:80,y:405},
+				{type:"hero", name:"5",x:140,y:405},
 				
                 
                
@@ -785,8 +784,8 @@ var levels = {
 				
 				
 				{type:"hero", name:"9",x:30,y:415},
-				{type:"hero", name:"9",x:80,y:405},
-				{type:"hero", name:"9",x:140,y:405},
+				{type:"hero", name:"2",x:80,y:405},
+				{type:"hero", name:"5",x:140,y:405},
             
             
           
@@ -888,9 +887,9 @@ var levels = {
                 
                 
              
-                 {type:"villain", name:"4",x:720,y:105,calories:690}, 
+                 {type:"villain", name:"6",x:720,y:105,calories:690}, 
                 
-                  {type:"villain", name:"4",x:520,y:105,calories:690}, 
+                  {type:"villain", name:"6",x:520,y:105,calories:690}, 
                 
 				
               
@@ -898,8 +897,8 @@ var levels = {
 				
 				
 				{type:"hero", name:"9",x:30,y:415},
-				{type:"hero", name:"9",x:80,y:405},
-				{type:"hero", name:"9",x:140,y:405},
+				{type:"hero", name:"2",x:80,y:405},
+				{type:"hero", name:"5",x:140,y:405},
             
             
           
@@ -1048,6 +1047,15 @@ var entities = {
 			friction:0.5,
 			restitution:0.6,
 		},
+        "6":{
+			shape:"rectangle",
+			fullHealth:50,
+			width:40,
+			height:50,
+			density:1,
+			friction:0.5,
+			restitution:0.6,
+		},
         "8":{
 			shape:"rectangle",
 			fullHealth:50,
@@ -1064,13 +1072,13 @@ var entities = {
 			friction:0.5,
 			restitution:0.4,
 		},
-		"6":{
+		"5":{
 			shape:"circle",
 			radius:25,
 			density:1.5,
 			friction:0.5,
 			restitution:0.4,
-            radius:0.6,
+        
 		},
 		"2":{
             shape:"circle",
