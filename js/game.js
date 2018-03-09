@@ -414,63 +414,63 @@ var levels = {
 	// Level data
 	data:[
 	 {// First level
-		foreground:'fondo1',
-		background:'fondo1',
+		foreground:'fondoNivel1',
+		background:'fondoNivel1',
 		entities:[
 			{type:"ground", name:"dirt", x:500,y:440,width:1000,height:20,isStatic:true},
-            {type:"ground", name:"alga3", x:185,y:390,width:30,height:80,isStatic:true},
+            {type:"ground", name:"algaNivel1", x:185,y:390,width:30,height:80,isStatic:true},
  
             
-			{type:"block", name:"alga3", x:520,y:380,angle:90,width:100,height:25},
-			{type:"block", name:"alga3", x:520,y:280,angle:90,width:100,height:25},
+			{type:"block", name:"algaNivel1", x:520,y:380,angle:90,width:100,height:25},
+			{type:"block", name:"algaNivel1", x:520,y:280,angle:90,width:100,height:25},
             
             
             
-            {type:"villain", name:"1", x:670,y:280,calories:420},
+            {type:"villain", name:"crab1", x:670,y:280,calories:420},
             
             
-            {type:"block", name:"alga3", x:720,y:380,angle:90,width:100,height:25},
-            {type:"block", name:"alga3", x:720,y:280,angle:90,width:100,height:25},
+            {type:"block", name:"algaNivel1", x:720,y:380,angle:90,width:100,height:25},
+            {type:"block", name:"algaNivel1", x:720,y:280,angle:90,width:100,height:25},
             
-            {type:"villain", name:"3",x:670,y:180,calories:190},
+            {type:"villain", name:"seaHorse",x:670,y:180,calories:190},
             
-             {type:"block", name:"alga3", x:670,y:180,width:100,height:25},
-            
-            
-            
-            
-            {type:"villain", name:"1", x:570,y:280,calories:420},
-            
-            
-            {type:"block", name:"alga3", x:520,y:280,angle:90,width:100,height:25},
-            {type:"block", name:"alga3", x:520,y:380,angle:90,width:100,height:25},
-            
-            {type:"villain", name:"3",x:570,y:180,calories:190},
-            {type:"block", name:"alga3", x:570,y:180,width:100,height:25},
+             {type:"block", name:"algaNivel1", x:670,y:180,width:100,height:25},
             
             
             
-            {type:"villain", name:"1",x:470,y:280,calories:90},
+            
+            {type:"villain", name:"crab1", x:570,y:280,calories:420},
+            
+            
+            {type:"block", name:"algaNivel1", x:520,y:280,angle:90,width:100,height:25},
+            {type:"block", name:"algaNivel1", x:520,y:380,angle:90,width:100,height:25},
+            
+            {type:"villain", name:"seaHorse",x:570,y:180,calories:190},
+            {type:"block", name:"algaNivel1", x:570,y:180,width:100,height:25},
             
             
             
-            {type:"block", name:"alga3", x:420,y:280,angle:90,width:100,height:25},
-            {type:"block", name:"alga3", x:420,y:380,angle:90,width:100,height:25},
-            
-            
-            {type:"villain", name:"3",x:470,y:180,calories:190}, 
-            {type:"block", name:"alga3", x:470,y:180,width:100,height:25},
+            {type:"villain", name:"crab1",x:470,y:280,calories:90},
             
             
             
-            {type:"villain", name:"1",x:370,y:280,calories:90},
+            {type:"block", name:"algaNivel1", x:420,y:280,angle:90,width:100,height:25},
+            {type:"block", name:"algaNivel1", x:420,y:380,angle:90,width:100,height:25},
             
             
-            {type:"block", name:"alga3", x:320,y:280,angle:90,width:100,height:25},
-            {type:"block", name:"alga3", x:320,y:380,angle:90,width:100,height:25},
+            {type:"villain", name:"seaHorse",x:470,y:180,calories:190}, 
+            {type:"block", name:"algaNivel1", x:470,y:180,width:100,height:25},
             
-            {type:"villain", name:"3",x:370,y:180,calories:190},
-            {type:"block", name:"alga3", x:370,y:180,width:100,height:25},
+            
+            
+            {type:"villain", name:"crab1",x:370,y:280,calories:90},
+            
+            
+            {type:"block", name:"algaNivel1", x:320,y:280,angle:90,width:100,height:25},
+            {type:"block", name:"algaNivel1", x:320,y:380,angle:90,width:100,height:25},
+            
+            {type:"villain", name:"seaHorse",x:370,y:180,calories:190},
+            {type:"block", name:"algaNivel1", x:370,y:180,width:100,height:25},
             
             
             
@@ -501,33 +501,33 @@ var levels = {
 
 			//{type:"villain", name:"1",x:520,y:205,calories:590},
 
-			{type:"block", name:"alga3", x:620,y:380,angle:90,width:100,height:25},
-			{type:"block", name:"alga3", x:620,y:280,angle:90,width:100,height:25},
-			{type:"hero", name:"9",x:140,y:405},
-			{type:"hero", name:"2",x:80,y:405},
-			{type:"hero", name:"5",x:140,y:405},
+			{type:"block", name:"algaNivel1", x:620,y:380,angle:90,width:100,height:25},
+			{type:"block", name:"algaNivel1", x:620,y:280,angle:90,width:100,height:25},
+			{type:"hero", name:"shell",x:140,y:405},
+			{type:"hero", name:"star",x:80,y:405},
+			{type:"hero", name:"fish",x:140,y:405},
 		]
 	 },
 		{   // Second level
-			foreground:'fondo4',
-			background:'fondo4',
+			foreground:'fondoNivel2',
+			background:'fondoNivel2',
 			entities:[
 				{type:"ground", name:"dirt", x:500,y:440,width:1000,height:20,isStatic:true},
-				{type:"ground", name:"alga4", x:185,y:390,width:30,height:80,isStatic:true},
+				{type:"ground", name:"algaNivel2", x:185,y:390,width:30,height:80,isStatic:true},
 
-				{type:"block", name:"alga4", x:820,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"alga4", x:720,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"alga4", x:620,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"alga4", x:670,y:317.5,width:100,height:25},
-                {type:"block", name:"alga4", x:770,y:317.5,width:100,height:25},
+				{type:"block", name:"algaNivel2", x:820,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel2", x:720,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel2", x:620,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel2", x:670,y:317.5,width:100,height:25},
+                {type:"block", name:"algaNivel2", x:770,y:317.5,width:100,height:25},
                 
                 
                 
-                {type:"block", name:"alga4", x:620,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"alga4", x:520,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"alga4", x:420,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"alga4", x:470,y:317.5,width:100,height:25},
-                {type:"block", name:"alga4", x:570,y:317.5,width:100,height:25},
+                {type:"block", name:"algaNivel2", x:620,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel2", x:520,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel2", x:420,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel2", x:470,y:317.5,width:100,height:25},
+                {type:"block", name:"algaNivel2", x:570,y:317.5,width:100,height:25},
                 
                 
                 // {type:"block", name:"7", x:70,y:317.5,width:100,height:25},
@@ -542,9 +542,9 @@ var levels = {
                 
                 
                
-            {type:"villain", name:"3",x:720,y:205,calories:590},
-             {type:"villain", name:"3",x:520,y:205,calories:590},  
-              {type:"villain", name:"4",x:620,y:205,calories:690},  
+            {type:"villain", name:"seaHorse",x:720,y:205,calories:590},
+             {type:"villain", name:"seaHorse",x:520,y:205,calories:590},  
+              {type:"villain", name:"crab2",x:620,y:205,calories:690},  
                
                   
           //  {type:"villain", name:"2",x:620,y:380,calories:590},
@@ -558,59 +558,59 @@ var levels = {
 				
 				
 
-				{type:"block", name:"alga4", x:670,y:257,angle:90,width:100,height:25},
-				{type:"block", name:"alga4", x:770,y:253,angle:90,width:100,height:25},
-				{type:"block", name:"alga4", x:720,y:192.5,width:100,height:25},
+				{type:"block", name:"algaNivel2", x:670,y:257,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel2", x:770,y:253,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel2", x:720,y:192.5,width:100,height:25},
                 
-                {type:"block", name:"alga4", x:470,y:257,angle:90,width:100,height:25},
-				{type:"block", name:"alga4", x:570,y:253,angle:90,width:100,height:25},
-				{type:"block", name:"alga4", x:520,y:192.5,width:100,height:25},
+                {type:"block", name:"algaNivel2", x:470,y:257,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel2", x:570,y:253,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel2", x:520,y:192.5,width:100,height:25},
                 
                 
-                 {type:"villain", name:"4",x:720,y:105,calories:690}, 
+                 {type:"villain", name:"crab2",x:720,y:105,calories:690}, 
                 
-                  {type:"villain", name:"4",x:520,y:105,calories:690}, 
+                  {type:"villain", name:"crab2",x:520,y:105,calories:690}, 
                 
-				{type:"block", name:"alga4", x:670,y:96,angle:90,width:100,height:25},
-				{type:"block", name:"alga4", x:770,y:94,angle:90,width:100,height:25},
-				{type:"block", name:"alga4", x:720,y:32.5,width:100,height:25},
+				{type:"block", name:"algaNivel2", x:670,y:96,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel2", x:770,y:94,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel2", x:720,y:32.5,width:100,height:25},
                 
-                {type:"block", name:"alga4", x:470,y:96,angle:90,width:100,height:25},
-				{type:"block", name:"alga4", x:570,y:94,angle:90,width:100,height:25},
-				{type:"block", name:"alga4", x:520,y:32.5,width:100,height:25},
+                {type:"block", name:"algaNivel2", x:470,y:96,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel2", x:570,y:94,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel2", x:520,y:32.5,width:100,height:25},
                 
 				
                 
 
 				
 				
-				{type:"hero", name:"9",x:30,y:415},
-				{type:"hero", name:"2",x:80,y:405},
-				{type:"hero", name:"5",x:140,y:405},
+				{type:"hero", name:"shell",x:30,y:415},
+				{type:"hero", name:"star",x:80,y:405},
+				{type:"hero", name:"fish",x:140,y:405},
 			]
 		},
         
         {   // Third level
-			foreground:'fondo6',
-			background:'fondo6',
+			foreground:'fondoNivel3',
+			background:'fondoNivel3',
 			entities:[
                 
                 {type:"ground", name:"dirt", x:500,y:440,width:1000,height:20,isStatic:true},
-				{type:"ground", name:"7", x:185,y:390,width:30,height:80,isStatic:true},
+				{type:"ground", name:"algaNivel3", x:185,y:390,width:30,height:80,isStatic:true},
 
-				{type:"block", name:"7", x:820,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:720,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:620,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:670,y:317.5,width:100,height:25},
-                {type:"block", name:"7", x:770,y:317.5,width:100,height:25},
+				{type:"block", name:"algaNivel3", x:820,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel3", x:720,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel3", x:620,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel3", x:670,y:317.5,width:100,height:25},
+                {type:"block", name:"algaNivel3", x:770,y:317.5,width:100,height:25},
                 
                 
                 
-                {type:"block", name:"7", x:620,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:520,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:420,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:470,y:317.5,width:100,height:25},
-                {type:"block", name:"7", x:570,y:317.5,width:100,height:25},
+                {type:"block", name:"algaNivel3", x:620,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel3", x:520,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel3", x:420,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel3", x:470,y:317.5,width:100,height:25},
+                {type:"block", name:"algaNivel3", x:570,y:317.5,width:100,height:25},
                 
                 
                 // {type:"block", name:"7", x:70,y:317.5,width:100,height:25},
@@ -625,9 +625,9 @@ var levels = {
                 
                 
                
-            {type:"villain", name:"3",x:720,y:205,calories:590},
-             {type:"villain", name:"3",x:520,y:205,calories:590},  
-              {type:"villain", name:"1",x:620,y:205,calories:690},  
+            {type:"villain", name:"seaHorse",x:720,y:205,calories:590},
+             {type:"villain", name:"seaHorse",x:520,y:205,calories:590},  
+              {type:"villain", name:"crab1",x:620,y:205,calories:690},  
                
                   
           //  {type:"villain", name:"2",x:620,y:380,calories:590},
@@ -641,18 +641,18 @@ var levels = {
 				
 				
 
-				{type:"block", name:"7", x:670,y:255,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:770,y:255,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:720,y:192.5,width:100,height:25},
+				{type:"block", name:"algaNivel3", x:670,y:255,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel3", x:770,y:255,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel3", x:720,y:192.5,width:100,height:25},
                 
-                {type:"block", name:"7", x:470,y:255,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:570,y:255,angle:90,width:100,height:25},
-				{type:"block", name:"7", x:520,y:192.5,width:100,height:25},
+                {type:"block", name:"algaNivel3", x:470,y:255,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel3", x:570,y:255,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel3", x:520,y:192.5,width:100,height:25},
                 
                 
-                 {type:"villain", name:"8",x:720,y:105,calories:690}, 
+                 {type:"villain", name:"lightFish",x:720,y:105,calories:690}, 
                 
-                  {type:"villain", name:"8",x:520,y:105,calories:690}, 
+                  {type:"villain", name:"lightFish",x:520,y:105,calories:690}, 
                 
 				
                
@@ -660,9 +660,9 @@ var levels = {
 
 				
 				
-				{type:"hero", name:"9",x:30,y:415},
-				{type:"hero", name:"2",x:80,y:405},
-				{type:"hero", name:"5",x:140,y:405},
+				{type:"hero", name:"shell",x:30,y:415},
+				{type:"hero", name:"star",x:80,y:405},
+				{type:"hero", name:"fish",x:140,y:405},
 				
                 
                
@@ -671,28 +671,28 @@ var levels = {
 		},
         
          {   // fourth level
-			foreground:'fondo8',
-			background:'fondo8',
+			foreground:'fondoNivel4',
+			background:'fondoNivel4',
 			entities:[
 				{type:"ground", name:"dirt", x:500,y:440,width:1000,height:20,isStatic:true},
 				{type:"ground", name:"7", x:185,y:390,width:30,height:80,isStatic:true},
-                {type:"ground", name:"alga", x:185,y:390,width:30,height:80,isStatic:true},
+                {type:"ground", name:"algaNivel4", x:185,y:390,width:30,height:80,isStatic:true},
 
 				
                 
-          {type:"block", name:"alga", x:820,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"alga", x:720,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"alga", x:620,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"alga", x:670,y:317.5,width:100,height:25},
-                {type:"block", name:"alga", x:770,y:317.5,width:100,height:25},
+          {type:"block", name:"algaNivel4", x:820,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel4", x:720,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel4", x:620,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel4", x:670,y:317.5,width:100,height:25},
+                {type:"block", name:"algaNivel4", x:770,y:317.5,width:100,height:25},
                 
                 
                 
-                {type:"block", name:"alga", x:620,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"alga", x:520,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"alga", x:420,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"alga", x:470,y:317.5,width:100,height:25},
-                {type:"block", name:"alga", x:570,y:317.5,width:100,height:25},
+                {type:"block", name:"algaNivel4", x:620,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel4", x:520,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel4", x:420,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel4", x:470,y:317.5,width:100,height:25},
+                {type:"block", name:"algaNivel4", x:570,y:317.5,width:100,height:25},
                 
                 
                 
@@ -703,15 +703,15 @@ var levels = {
                 
                 
                 //{type:"block", name:"7", x:1020,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"alga", x:920,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"alga", x:820,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"alga", x:870,y:317.5,width:100,height:25},
+				{type:"block", name:"algaNivel4", x:920,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel4", x:820,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel4", x:870,y:317.5,width:100,height:25},
                
-                 {type:"block", name:"alga", x:420,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"alga", x:320,y:380,angle:90,width:100,height:25},
+                 {type:"block", name:"algaNivel4", x:420,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel4", x:320,y:380,angle:90,width:100,height:25},
 				//{type:"block", name:"7", x:220,y:380,angle:90,width:100,height:25},
 				//{type:"block", name:"7", x:270,y:317.5,width:100,height:25},
-                {type:"block", name:"alga", x:370,y:317.5,width:100,height:25},
+                {type:"block", name:"algaNivel4", x:370,y:317.5,width:100,height:25},
                 
                 
                 
@@ -738,11 +738,11 @@ var levels = {
 				
                 //{type:"block", name:"7", x:870,y:317.5,width:100,height:25},
                 
-               {type:"villain", name:"8",x:880,y:300,calories:690}, 
-             {type:"villain", name:"8",x:380,y:300,calories:690},  
-            {type:"villain", name:"3",x:720,y:205,calories:590},
-             {type:"villain", name:"3",x:520,y:205,calories:590},  
-              {type:"villain", name:"4",x:620,y:205,calories:690},  
+               {type:"villain", name:"lightFish",x:880,y:300,calories:690}, 
+             {type:"villain", name:"lightFish",x:380,y:300,calories:690},  
+            {type:"villain", name:"seaHorse",x:720,y:205,calories:590},
+             {type:"villain", name:"seaHorse",x:520,y:205,calories:590},  
+              {type:"villain", name:"crab2",x:620,y:205,calories:690},  
                
                   
           //  {type:"villain", name:"2",x:620,y:380,calories:590},
@@ -756,36 +756,36 @@ var levels = {
 				
 				
 
-				{type:"block", name:"alga", x:670,y:255,angle:90,width:100,height:25},
-				{type:"block", name:"alga", x:770,y:254,angle:90,width:100,height:25},
-				{type:"block", name:"alga", x:720,y:192.5,width:100,height:25},
+				{type:"block", name:"algaNivel4", x:670,y:255,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel4", x:770,y:254,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel4", x:720,y:192.5,width:100,height:25},
                 
-                {type:"block", name:"alga", x:470,y:255,angle:90,width:100,height:25},
-				{type:"block", name:"alga", x:570,y:254,angle:90,width:100,height:25},
-				{type:"block", name:"alga", x:520,y:192.5,width:100,height:25},
+                {type:"block", name:"algaNivel4", x:470,y:255,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel4", x:570,y:254,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel4", x:520,y:192.5,width:100,height:25},
                 
                 
              
-                 {type:"villain", name:"4",x:720,y:105,calories:690}, 
+                 {type:"villain", name:"crab2",x:720,y:105,calories:690}, 
                 
-                  {type:"villain", name:"4",x:520,y:105,calories:690}, 
+                  {type:"villain", name:"crab2",x:520,y:105,calories:690}, 
                 
-				{type:"block", name:"alga", x:670,y:95,angle:90,width:100,height:25},
-				{type:"block", name:"alga", x:770,y:95,angle:90,width:100,height:25},
-				{type:"block", name:"alga", x:720,y:32.5,width:100,height:25},
+				{type:"block", name:"algaNivel4", x:670,y:95,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel4", x:770,y:95,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel4", x:720,y:32.5,width:100,height:25},
                 
-                {type:"block", name:"alga", x:470,y:95,angle:90,width:100,height:25},
-				{type:"block", name:"alga", x:570,y:95,angle:90,width:100,height:25},
-				{type:"block", name:"alga", x:520,y:32.5,width:100,height:25},
+                {type:"block", name:"algaNivel4", x:470,y:95,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel4", x:570,y:95,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel4", x:520,y:32.5,width:100,height:25},
                 
 				
               
 
 				
 				
-				{type:"hero", name:"9",x:30,y:415},
-				{type:"hero", name:"2",x:80,y:405},
-				{type:"hero", name:"5",x:140,y:405},
+				{type:"hero", name:"shell",x:30,y:415},
+				{type:"hero", name:"star",x:80,y:405},
+				{type:"hero", name:"fish",x:140,y:405},
             
             
           
@@ -793,27 +793,27 @@ var levels = {
 			]
 		},
           {   // fifth level
-			foreground:'fondo12',
-			background:'fondo12',
+			foreground:'fondoNivel5',
+			background:'fondoNivel5',
 			entities:[
 				{type:"ground", name:"dirt", x:500,y:440,width:1000,height:20,isStatic:true},
-				{type:"ground", name:"alga15", x:185,y:390,width:30,height:80,isStatic:true},
+				{type:"ground", name:"algaNivel5", x:185,y:390,width:30,height:80,isStatic:true},
 
 				
                 
-          {type:"block", name:"alga15", x:820,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"alga15", x:720,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"alga15", x:620,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"alga15", x:670,y:317.5,width:100,height:25},
-                {type:"block", name:"alga15", x:770,y:317.5,width:100,height:25},
+          {type:"block", name:"algaNivel5", x:820,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel5", x:720,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel5", x:620,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel5", x:670,y:317.5,width:100,height:25},
+                {type:"block", name:"algaNivel5", x:770,y:317.5,width:100,height:25},
                 
                 
                 
-                {type:"block", name:"alga15", x:620,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"alga15", x:520,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"alga15", x:420,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"alga15", x:470,y:317.5,width:100,height:25},
-                {type:"block", name:"alga15", x:570,y:317.5,width:100,height:25},
+                {type:"block", name:"algaNivel5", x:620,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel5", x:520,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel5", x:420,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel5", x:470,y:317.5,width:100,height:25},
+                {type:"block", name:"algaNivel5", x:570,y:317.5,width:100,height:25},
                 
                 
                 
@@ -824,15 +824,15 @@ var levels = {
                 
                 
                 //{type:"block", name:"7", x:1020,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"alga15", x:920,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"alga15", x:820,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"alga15", x:870,y:317.5,width:100,height:25},
+				{type:"block", name:"algaNivel5", x:920,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel5", x:820,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel5", x:870,y:317.5,width:100,height:25},
                
-                 {type:"block", name:"alga15", x:420,y:380,angle:90,width:100,height:25},
-				{type:"block", name:"alga15", x:320,y:380,angle:90,width:100,height:25},
+                 {type:"block", name:"algaNivel5", x:420,y:380,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel5", x:320,y:380,angle:90,width:100,height:25},
 				//{type:"block", name:"7", x:220,y:380,angle:90,width:100,height:25},
 				//{type:"block", name:"7", x:270,y:317.5,width:100,height:25},
-                {type:"block", name:"alga15", x:370,y:317.5,width:100,height:25},
+                {type:"block", name:"algaNivel5", x:370,y:317.5,width:100,height:25},
                 
                 
                 
@@ -859,11 +859,11 @@ var levels = {
 				
                 //{type:"block", name:"7", x:870,y:317.5,width:100,height:25},
                 
-               {type:"villain", name:"8",x:880,y:300,calories:690}, 
-             {type:"villain", name:"8",x:380,y:300,calories:690},  
-            {type:"villain", name:"3",x:720,y:205,calories:590},
-             {type:"villain", name:"3",x:520,y:205,calories:590},  
-              {type:"villain", name:"4",x:620,y:205,calories:690},  
+               {type:"villain", name:"lightFish",x:880,y:300,calories:690}, 
+             {type:"villain", name:"lightFish",x:380,y:300,calories:690},  
+            {type:"villain", name:"seaHorse",x:720,y:205,calories:590},
+             {type:"villain", name:"seaHorse",x:520,y:205,calories:590},  
+              {type:"villain", name:"crab2",x:620,y:205,calories:690},  
                
                   
           //  {type:"villain", name:"2",x:620,y:380,calories:590},
@@ -877,28 +877,28 @@ var levels = {
 				
 				
 
-				{type:"block", name:"alga15", x:670,y:255,angle:90,width:100,height:25},
-				{type:"block", name:"alga15", x:770,y:254,angle:90,width:100,height:25},
-				{type:"block", name:"alga15", x:720,y:192.5,width:100,height:25},
+				{type:"block", name:"algaNivel5", x:670,y:255,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel5", x:770,y:254,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel5", x:720,y:192.5,width:100,height:25},
                 
-                {type:"block", name:"alga15", x:470,y:255,angle:90,width:100,height:25},
-				{type:"block", name:"alga15", x:570,y:254,angle:90,width:100,height:25},
-				{type:"block", name:"alga15", x:520,y:192.5,width:100,height:25},
+                {type:"block", name:"algaNivel5", x:470,y:255,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel5", x:570,y:254,angle:90,width:100,height:25},
+				{type:"block", name:"algaNivel5", x:520,y:192.5,width:100,height:25},
                 
                 
              
-                 {type:"villain", name:"6",x:720,y:105,calories:690}, 
+                 {type:"villain", name:"prawn",x:720,y:105,calories:690}, 
                 
-                  {type:"villain", name:"6",x:520,y:105,calories:690}, 
+                  {type:"villain", name:"prawn",x:520,y:105,calories:690}, 
                 
 				
               
 
 				
 				
-				{type:"hero", name:"9",x:30,y:415},
-				{type:"hero", name:"2",x:80,y:405},
-				{type:"hero", name:"5",x:140,y:405},
+				{type:"hero", name:"shell",x:30,y:415},
+				{type:"hero", name:"star",x:80,y:405},
+				{type:"hero", name:"fish",x:140,y:405},
             
             
           
@@ -985,31 +985,31 @@ var entities = {
 			friction:0.4,
 			restitution:0.15,
 		},
-		"7":{
+		"algaNivel3":{
 			fullHealth:500,
 			density:0.7,
 			friction:0.4,
 			restitution:0.4,
 		},
-        "alga4":{
+        "algaNivel2":{
 			fullHealth:500,
 			density:0.7,
 			friction:0.4,
 			restitution:0.4,
 		},
-        "alga3":{
+        "algaNivel1":{
 			fullHealth:500,
 			density:0.7,
 			friction:0.4,
 			restitution:0.4,
 		},
-        "alga15":{
+        "algaNivel5":{
 			fullHealth:500,
 			density:0.7,
 			friction:0.4,
 			restitution:0.4,
 		},
-        "alga":{
+        "algaNivel4":{
 			fullHealth:500,
 			density:0.7,
 			friction:0.4,
@@ -1020,7 +1020,7 @@ var entities = {
 			friction:1.5,
 			restitution:0.2,
 		},
-		"1":{
+		"crab1":{
 			shape:"circle",
 			fullHealth:70,
 			radius:30,
@@ -1029,7 +1029,7 @@ var entities = {
 			restitution:0.4,
 		},
        
-		"3":{
+		"seaHorse":{
 			shape:"rectangle",
 			fullHealth:80,
 			width:70,
@@ -1038,7 +1038,7 @@ var entities = {
 			friction:0.5,
 			restitution:0.7,
 		},
-		"4":{
+		"crab2":{
 			shape:"rectangle",
 			fullHealth:50,
 			width:40,
@@ -1047,7 +1047,7 @@ var entities = {
 			friction:0.5,
 			restitution:0.6,
 		},
-        "6":{
+        "prawn":{
 			shape:"rectangle",
 			fullHealth:50,
 			width:40,
@@ -1056,7 +1056,7 @@ var entities = {
 			friction:0.5,
 			restitution:0.6,
 		},
-        "8":{
+        "lightFish":{
 			shape:"rectangle",
 			fullHealth:50,
 			width:40,
@@ -1065,14 +1065,14 @@ var entities = {
 			friction:0.5,
 			restitution:0.6,
 		},
-		"9":{
+		"shell":{
 			shape:"circle",
 			radius:25,
 			density:1.5,
 			friction:0.5,
 			restitution:0.4,
 		},
-		"5":{
+		"fish":{
 			shape:"circle",
 			radius:25,
 			density:1.5,
@@ -1080,7 +1080,7 @@ var entities = {
 			restitution:0.4,
         
 		},
-		"2":{
+		"star":{
             shape:"circle",
 			radius:25,
 			density:1.5,
@@ -1089,13 +1089,7 @@ var entities = {
            
 			
 		},
-       "5":{
-			shape:"circle",
-			radius:25,
-			density:1.5,
-			friction:0.5,
-			restitution:0.4,
-       },
+       
         
 	},
 	// take the entity, create a box2d body and add it to the world
